@@ -44,7 +44,7 @@ function NewsWidget({}: Props) {
         <div className="pt-10 px-4 sm:px-10 sm:mx-auto sm:max-w-7xl grid grid-cols-1 sm:grid-cols-3 sm:gap-10">
           <div className="text-xl sm:text-2xl font-black flex flex-col space-y-1">
               {/* <h1>HAPPENING NOW.</h1>  */}
-              <h1 className="pt-1.5 pb-0.5 px-3 w-fit text-white bg-[#0E1A62]">TESTIMONIALS</h1>
+              <h1 className="pt-1.5 pb-0.5 px-3 w-fit text-white bg-[#0E1A62]">TESTIMONIALS & WORKS</h1>
           </div>
         </div>
         <div className="py-14 px-4 sm:px-10 sm:mx-auto sm:max-w-7xl grid grid-cols-1 sm:grid-cols-3 gap-10">

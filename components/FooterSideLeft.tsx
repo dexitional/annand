@@ -8,7 +8,7 @@ type Props = {}
 function FooterSideLeft({}: Props) {
   return (
     <div className="pb-10 sm:pb-0 sm:pr-3 sm:min-h-48 sm:min-w-[23rem] flex flex-col space-y-6 sm:space-y-10 sm:border-r-4 border-b-4 sm:border-b-0 border-dashed border-white">
-        <h1 className="text-xl sm:text-[1.75rem] leading-5 sm:leading-8 font-black">Fostering resilience, self-sufficiency and a sense of hope in the face of adversity </h1>
+        <h1 className="text-xl sm:text-[1.75rem] leading-5 sm:leading-8 font-black">Innovative solutions for your digital needs.</h1>
         <div className="flex items-center justify-start space-x-4">
             <div className="p-3 h-fit w-fit bg-black rounded-full">
                 <FaInstagram className="h-4 w-4 sm:h-6 sm:w-6 text-white"/>

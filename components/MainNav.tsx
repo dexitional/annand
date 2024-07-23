@@ -35,10 +35,10 @@ function MainNav({ data }: Props) {
             ))}
                 
         </Menubar>
-        <div className="px-8 py-3 bg-[#0E1A62] cursor-pointer text-white flex items-center space-x-2 justify-between">
+        <Link href="https://forms.gle/eYaaJeEKenrvTPzNA" target='_blank' className="px-8 py-3 bg-[#0E1A62] cursor-pointer text-white flex items-center space-x-2 justify-between">
           <span className="font-bold ">SERVICE REQUEST</span>
           <MdDoubleArrow className="h-6 w-6" />
-        </div>
+        </Link>
     </nav>
   )
 }

@@ -27,8 +27,12 @@ function Header() {
         subMenu : [
            { label: '⁠Software Development', link: '#' },
            { label: '⁠IT Project Management', link: '#' },
-           { label: '⁠IT Integration', link: '#' },
+           { label: '⁠Data Integration', link: '#' },
            { label: '⁠IT Training and Support Services', link: '#' },
+           { label: '⁠Study Abroad', link: '#' },
+           { label: '⁠Graphics Designing', link: '#' },
+           { label: '⁠Business Registration', link: '#' },
+           { label: '⁠Ghana Passport Facilitation', link: '#' },
         ] 
      },
 
@@ -44,12 +48,12 @@ function Header() {
            { label: '⁠Facility Booking Software', link: '#' },
         ] 
      },
-     { label: 'Contact Us', 
+     { label: 'Support', 
         link: '', 
         subMenu : [
-            { label: 'Newsroom', link: '/newsroom' },
-           { label: 'Adehye Stories', link: 'stories' },
-           { label: 'Newsletters', link: 'newsletters' },
+            { label: 'Remote Support', link: '#' },
+           { label: 'On-Site Support', link: '#' },
+           
         ] 
      }
   ];

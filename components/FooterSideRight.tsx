@@ -6,9 +6,9 @@ type Props = {}
 function FooterSideRight({}: Props) {
   return (
     <div className="sm:px-10 sm:min-h-48 sm:min-w-[25rem]">
-        <div className="flex flex-col space-y-10 ">
+        <div className="flex flex-col md:space-y-10 ">
             <LogoFoot />
-            <p className="text-orange-100 sm:text-blue-900 font-bold">AnnanD Enterprise is a dedicated community of compassionate individuals committed to making a positive impact through charity work.</p>
+            <p className="text-blue-900 font-bold">AnnanD Enterprise is passionate about harnessing the power of technology to drive business success and educational excellence. Working shape the future of IT consulting in Ghana and Beyond!</p>
         </div>
         <div></div>
     </div>

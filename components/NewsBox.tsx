@@ -20,7 +20,7 @@ function NewsBox({ data }: Props) {
                 <ImPriceTag className="w-3 h-3" />
                 <span className="text-sm font-medium line-clamp-3">{data.category}</span>
             </div> */}
-            <h1 className="text-lg font-black leading-6 text-[#0E1A62] uppercase">{data.title}</h1>
+            <h1 className="text-base md:text-lg font-black leading-6 text-[#0E1A62] uppercase">{data.title}</h1>
             <p className="text-base font-medium line-clamp-4">{data.excerpt}</p>
             {/* <div className="pb-4 text-xs font-bold">by ACO | {data.date}</div> */}
         </div> 
