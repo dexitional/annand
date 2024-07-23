@@ -38,7 +38,7 @@ function MobileNav({ data }: Props) {
                 {/* Collapsible Menu */}
                 <nav className="bg-white flex flex-col justify-center overflow-y-auto">
                  { data?.map((r:any,i:number) => (
-                    <Collapsible className="py-4 font-bold text-[#0E1A62] flex flex-col space-y-1.5 border-b last:border-b-0 border-slate-200">
+                    <Collapsible key={i} className="py-4 font-bold text-[#0E1A62] flex flex-col space-y-1.5 border-b last:border-b-0 border-slate-200">
                         <CollapsibleTrigger className="px-4 text-left">{r.label}</CollapsibleTrigger>
                         <CollapsibleContent className="pl-8 text-gray-500 font-medium bg-gray-100">
                         { r?.subMenu?.map((s:any) => (
