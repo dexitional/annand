@@ -1,8 +1,4 @@
 import React from 'react'
-import { MdEmail, MdPlayArrow } from 'react-icons/md'
-import { FaFacebookF, FaInstagram, FaPhone, FaYoutube } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import LogoFoot from './LogoFoot';
 import FooterSideRight from './FooterSideRight';
 import FooterSideMid from './FooterSideMid';
 import FooterSideLeft from './FooterSideLeft';

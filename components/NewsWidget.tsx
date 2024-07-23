@@ -3,7 +3,7 @@ import React from 'react'
 import { ImPriceTag } from "react-icons/im";
 import FeaturedImage1 from '../public/bg1.jpeg'
 import FeaturedImage2 from '../public/bg2.jpeg'
-import FeaturedImage3 from '../public/bg3.jpeg'
+import FeaturedImage3 from '../public/bg4.jpeg'
 import NewsBox from './NewsBox';
 type Props = {}
 

@@ -10,7 +10,7 @@ type Props = {
 function NewsBox({ data }: Props) {
   return (
     <div className="mb-32 relative h-64 ">
-        <Image src={data.image} alt="" className="object-cover" fill/> 
+        <Image src={data.image} alt="" className="object-cover object-left-top" fill/> 
         <div className="relative top-6 -left-32 h-12 opacity-50">
              <Image src={Watermark} alt="" className="object-contain" fill />
         </div>

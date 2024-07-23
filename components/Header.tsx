@@ -1,9 +1,4 @@
-import Image from 'next/image'
 import React from 'react'
-import { MdDoubleArrow } from "react-icons/md";
-import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger, navigationMenuTriggerStyle } from "@/components/ui/navigation-menu"
-import Link from 'next/link';
-import { Menubar, MenubarContent, MenubarItem, MenubarMenu, MenubarTrigger } from './ui/menubar';
 import LogoMain from './LogoMain';
 import MainNav from './MainNav';
 import MobileNav from './MobileNav';
