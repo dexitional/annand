@@ -42,9 +42,9 @@ function MobileNav({ data }: Props) {
                         <CollapsibleTrigger className="px-4 text-left">{r.label}</CollapsibleTrigger>
                         <CollapsibleContent className="pl-8 text-gray-500 font-medium bg-gray-100">
                         { r?.subMenu?.map((s:any) => (
-                            <Link key={s?.label} href={s.link}>
+                          <Link key={s?.label} href={s.link}>
                             <div className="pr-4 py-1.5 w-full border-b">{s?.label}</div>
-                            </Link>
+                          </Link>
                         ))}
                         </CollapsibleContent> 
                     </Collapsible> 

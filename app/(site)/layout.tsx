@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import localFont from 'next/font/local'
+import localFont from 'next/font/local';
 
-import "../globals.css";
-import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import "../globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,8 +35,8 @@ const tstar = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "Adehye Charity Organisation",
-  description: "A Non-profit Organisation committed to charity works",
+  title: "AnnanD Enterprise",
+  description: "Delivering excellent IT   consultancy services.",
 };
 
 export default function RootLayout({
