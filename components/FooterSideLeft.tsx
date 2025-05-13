@@ -26,11 +26,11 @@ function FooterSideLeft({}: Props) {
         <div className="flex flex-col space-y-3">
             <div className="flex items-center space-x-2">
                 <MdEmail className="h-4 w-4 sm:h-6 sm:w-6" />
-                <span className="underline">info@annandowuona.com</span>
+                <span className="underline">annandowuona@gmail.com</span>
             </div>
             <div className="flex items-center space-x-3">
                 <FaPhone className="h-4 w-4 sm:h-5 sm:w-5" />
-                <span className="underline">233-27-548-7759</span>
+                <span className="underline">233-33-209-6387</span>
             </div>
         </div>
     </div>

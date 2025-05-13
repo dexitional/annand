@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint"
   },
+  
   "dependencies": {
     "@next/font": "^14.2.5",
     "@radix-ui/react-collapsible": "^1.1.0",
@@ -29,6 +30,7 @@
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7"
   },
+
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",

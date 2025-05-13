@@ -12,7 +12,7 @@ function FooterBottom({}: Props) {
                 <div>Accessibility</div>
                 <div>About Us</div>
             </nav>
-            <span>© {new Date().getFullYear()} AnnanD Enterprise</span>
+            <span>© {new Date().getFullYear()} annanD Consult</span>
         </div>
     </div>
   )

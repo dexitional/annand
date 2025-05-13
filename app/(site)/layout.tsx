@@ -35,8 +35,8 @@ const tstar = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "AnnanD Enterprise",
-  description: "Delivering excellent IT   consultancy services.",
+  title: "annanD Consult",
+  description: "Delivering excellent IT consultancy services.",
 };
 
 export default function RootLayout({
