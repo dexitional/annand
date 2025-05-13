@@ -12,7 +12,7 @@ function SpotlightMain({}: Props) {
   const data = [
     { image: Bg1 , title: 'SEE HOW ENDING GLOBAL POVERTY BEGINS WITH', subtitle: 'THE ART OF CARING', label: 'READ MORE', link: '#' },
     { image: Bg2 , title: 'LETS LEND A HELPING HAND WITH', subtitle: 'THE ART OF CARING', label: 'DONATE', link: '#' },
-    { image: Bg3 , title: 'TESTIMONIES IN ', subtitle: 'THE ART OF CARING', label: 'READ MORE', link: '#' },
+    { image: Bg1 , title: 'TESTIMONIES IN ', subtitle: 'THE ART OF CARING', label: 'READ MORE', link: '#' },
   ];
   const index = Math.floor(Math.random() * data.length);
   const row = data && data[index] 
